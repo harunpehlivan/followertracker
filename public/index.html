@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower Tracker</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta property='og:title'  content='Follower Tracker'>
+    <meta property='og:description'  content='Leaderboard and predicter of Replit follower counts!'>
+    <meta property="og:image"  content="/favicon.png">
+  </head>
+  <body>
+    <div id="can">
+      <canvas id="chart"></canvas>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="bottom">
+      <h3 id="trending"></h3>
+      <h1>Add a user: <input type="text" id="userInput"><button onclick="add()">Add</button></h1>
+      <h3 id="added">Anyone who uses @harunpehlivanitdew will also be added.</h3>
+    </div>
+  </body>
+</html>
